@@ -14,9 +14,6 @@
 
   <name>basic-hibernate</name>
   <url>http://maven.apache.org</url>
-
-
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -55,5 +52,21 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.kenai.nbpwr</groupId>
+			<artifactId>javax-inject</artifactId>
+		</dependency>
 	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+
 </project>
